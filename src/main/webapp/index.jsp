@@ -9,7 +9,7 @@
 <body>
 <h1>Ejemplo de Proyecto de ASR con Cloudant </h1>
 <hr />
-<p> <b>Opciones de la base de datos de marina</b>:</p>
+<p> <b>Esto es una prueba</b>:</p>
 <ul>
 <li><a href="listar">Listar</a></li>
 <li><a href="insertar?palabra=hola">Insertar</a></li>
