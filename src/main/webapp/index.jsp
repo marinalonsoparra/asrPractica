@@ -9,7 +9,7 @@
 <body>
 <h1>Ejemplo de Proyecto de ASR con Cloudant </h1>
 <hr />
-<p> <b>Esto es una prueba y es la prueba final</b>:</p>
+<p> <b>Esto es una prueba de git</b>:</p>
 <ul>
 <li><a href="listar">Listar</a></li>
 <li><a href="insertar?palabra=hola">Insertar</a></li>
