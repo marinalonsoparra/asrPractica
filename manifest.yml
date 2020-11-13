@@ -1,6 +1,6 @@
 ---
 applications:
-- name: asrTomcatEjemploCloudantMarina
+- name: asrTomcatEjemploCloudant
   random-route: false
   path: target/asrTomcatEjemploCloudant.war
   memory: 640M
