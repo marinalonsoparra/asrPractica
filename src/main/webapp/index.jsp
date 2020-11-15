@@ -7,12 +7,12 @@
 <title>Proyecto ASR new...</title>
 </head>
 <body>
-<h1>Ejemplo de Proyecto de ASR con Cloudant Marina </h1>
+<h1>Ejemplo de Proyecto de ASR de Marina </h1>
 <hr />
-<p> <b>Esto es una prueba de git a ver si sigue funcionando</b>:</p>
+<p> <b>Servicios Cloudant y Traductor</b>:</p>
 <ul>
 <li><a href="listar">Listar</a></li>
-<li><a href="insertar?palabra=hola">Insertar</a></li>
+<li><a href="insertar?palabra=hola">Palabra en español:</a></li>
 </ul>
 </body>
 </html>
