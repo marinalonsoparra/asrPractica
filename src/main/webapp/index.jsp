@@ -12,7 +12,19 @@
 <p> <b>Servicios Cloudant y Traductor</b>:</p>
 <ul>
 <li><a href="listar">Listar</a></li>
-<li><a href="insertar?palabra=hola">Palabra en español:</a></li>
+<li>
+	<!--  <a href="insertar?palabra=hola">Palabra en español:</a> 
+	<input type="text" name="nombredelacaja"> 
+	<button> Traducir </button>
+	target="_blank"-->
+	
+	<form action="insertar" method="post" >
+
+  		<p>Palabra en español:<input type="text" name="palabra">
+		<input type="submit" value="Traducir"></p>
+
+	</form>
+</li>
 </ul>
 </body>
 </html>

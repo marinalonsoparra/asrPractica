@@ -40,7 +40,8 @@ public class Traductor
 		String traduccionJSON = translationResult.toString();
 		JsonParser parser = new JsonParser(); 
 		//JsonObject rootObj = JsonParser.parseString(traduccionJSON).getAsJsonObject();
-		JsonObject rootObj =(JsonObject) parser.parse(traduccionJSON).getAsJsonObject();
+		//JsonObject rootObj =(JsonObject) parser.parse(traduccionJSON).getAsJsonObject();
+		JsonObject rootObj =(JsonObject) parser.parse(traduccionJSON);
 
 		JsonArray traducciones = rootObj.getAsJsonArray("translations");
 		String traduccionPrimera = palabra;
