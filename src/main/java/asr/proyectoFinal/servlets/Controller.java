@@ -61,10 +61,10 @@ public class Controller extends HttpServlet {
 					}
 					else
 					{
-						//Traductor traduc=new Traductor();
-						//palabra.setName(traduc.translate(parametro, "es","en",true));
-						palabra.setName(parametro);
-						store.persist(palabra);
+						Traductor traduc=new Traductor();
+						palabra.setName(traduc.translate(parametro, "es","en",true));
+						//palabra.setName(parametro);
+						//store.persist(palabra);
 					    out.println(String.format("Almacenada la palabra: %s", palabra.getName()));			    	  
 					}
 				}
