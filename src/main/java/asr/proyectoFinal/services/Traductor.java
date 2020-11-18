@@ -26,7 +26,7 @@ public class Traductor
 		Authenticator authenticator = new IamAuthenticator("1FE5-hQIc25tkFT_TbPsxJsQserpy6yFFYobbnsrOzjd");
 		LanguageTranslator languageTranslator = new LanguageTranslator("2020-11-15",authenticator);
 
-		languageTranslator.setServiceUrl("https://gateway-lon.watsonplatform.net/language-translator/api");
+		languageTranslator.setServiceUrl("https://api.eu-gb.language-translator.watson.cloud.ibm.com/instances/7b06525e-3edd-430c-8386-aa382dde53e1");
 		
 		TranslateOptions translateOptions = new TranslateOptions.Builder() 
 				.addText(palabra)
