@@ -18,7 +18,7 @@
 	<button> Traducir </button>
 	target="_blank"-->
 	
-	<form action="insertar" method="post" >
+	 <form action="insertar" method="post" >
 
   		<p>Palabra en español:<input type="text" name="palabra">
 		<input type="submit" value="Traducir"></p>
