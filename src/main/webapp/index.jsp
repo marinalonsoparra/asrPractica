@@ -9,7 +9,7 @@
 <body>
 <h1>Ejemplo de Proyecto de ASR de Marina </h1>
 <hr />
-<p> <b>Servicios Cloudant y Traductor de Marina</b>:</p>
+<p> <b>Servicios Cloudant y Traductor de Marina esto es una prueba</b>:</p>
 <ul>
 <li><a href="listar">Listar</a></li>
 <li>
