@@ -26,5 +26,19 @@
 	</form>
 </li>
 </ul>
+
+<ul>
+<li><a href="imagen">¿Qué es mi imágen?</a></li>
+<li>
+	
+	 <form action="detectarImagen" method="post" >
+
+  		<p>URL de tu imágen<input type="text" name="url">
+		<input type="submit" value="detectarImagen"></p>
+
+	</form>
+</li>
+</ul>
+
 </body>
 </html>

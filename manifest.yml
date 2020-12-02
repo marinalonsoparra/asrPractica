@@ -14,3 +14,4 @@ applications:
   services:
   - asrDCBCloudantNoSQL
   - asrTranslator
+  - Visual Recognition ASR

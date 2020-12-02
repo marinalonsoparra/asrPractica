@@ -20,12 +20,13 @@ import javax.servlet.http.HttpServletResponse;
 
 import asr.proyectoFinal.dao.CloudantPalabraStore;
 import asr.proyectoFinal.dominio.Palabra;
+import asr.proyectoFinal.services.ReconocimientoImagenes;
 import asr.proyectoFinal.services.Traductor;
 
 /**
  * Servlet implementation class Controller
  */
-@WebServlet(urlPatterns = {"/listar", "/insertar", "/hablar"})
+@WebServlet(urlPatterns = {"/listar", "/insertar", "/detectarImagen"})
 public class Controller extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
@@ -68,6 +69,26 @@ public class Controller extends HttpServlet {
 					}
 				}
 				break;
+			
+			case "/detectarImagen":
+				
+				Palabra palabraImagen = new Palabra();
+				String parametroUrl = request.getParameter("url");
+				
+				if(parametroUrl==null)
+				{
+					out.println("usage: /detectarImagen?url=url de la imagen a detectar");
+				}
+				else
+				{	
+					ReconocimientoImagenes recImage = new ReconocimientoImagenes();
+					
+					String image_to_text=recImage.reconoceImagen(parametroUrl);
+						
+					out.println(String.format("La imagen es %s", image_to_text));			    	  
+					    
+				}
+				
 		}
 		out.println("</html>");
 	}
